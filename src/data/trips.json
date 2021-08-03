@@ -1,0 +1,66 @@
+[
+    {
+        "img": "../assets/images/newyork.jpg",
+        "alt": "New York City Evening", 
+        "name": "New York City, USA",
+        "button": "Know More...",
+        "url": "https://www.iloveny.com/places-to-go/new-york-city/city-guide-new-york-city/",
+        "href": "https://www.google.com/maps/place/New+York,+NY,+USA/@40.7540781,-73.9830088,12.75z/data=!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127753!4d-74.0059728"
+    },
+    {
+        "img": "../assets/images/paris.jpg",
+        "alt": "Eiffel Tower", 
+        "name": "Paris, France",
+        "button": "Know More...",
+        "url": "https://en.parisinfo.com/",
+        "href": "https://www.google.com/maps/place/Paris,+France/@48.8581094,2.2987914,16z/data=!4m5!3m4!1s0x47e66e1f06e2b70f:0x40b82c3688c9460!8m2!3d48.856614!4d2.3522219"
+    },
+    {
+        "img": "../assets/images/dubai.jpg",
+        "alt": "Burj Khalifa", 
+        "name": "Burj Khalifa, Dubai, UAE",
+        "button": "Know More...",
+        "url": "https://www.visitdubai.com/en/",
+        "href": "https://www.google.com/maps/place/Burj+Khalifa/@25.197312,55.2742831,19.29z/data=!4m6!3m5!1s0x3e5f43348a67e24b:0xff45e502e1ceb7e2!4b1!8m2!3d25.1969911!4d55.2742357"
+    },
+    {
+        "img": "../assets/images/maldives.jpg",
+        "alt": "Maldives", 
+        "name": "Fuvahmulah, Maldives",
+        "button": "Know More...",
+        "url": "https://visitmaldives.com/en",
+        "href": "https://www.google.com/maps/place/Fuvahmulah,+Maldives/@-0.2942692,73.4167277,15z/data=!3m1!4b1!4m5!3m4!1s0x24b5607b0ce751d9:0xa5b6d3af92d63bf4!8m2!3d-0.2983944!4d73.4268608"
+    },
+    {
+        "img": "../assets/images/london.jpg",
+        "alt": "London", 
+        "name": "London, England (UK)",
+        "button": "Know More...",
+        "url": "https://www.visitlondon.com/",
+        "href": "https://www.google.com/maps/place/London,+UK/@51.5103574,-0.1248435,14.75z/data=!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5073509!4d-0.1277583"
+    },
+    {
+        "img": "../assets/images/los-angeles.jpg",
+        "alt": "Los Angeles", 
+        "name": "Los Angeles, California, USA",
+        "button": "Know More...",
+        "url": "https://www.discoverlosangeles.com/",
+        "href": "https://www.google.com/maps/place/Los+Angeles,+CA,+USA/@34.1338841,-118.3251763,13.83z/data=!4m5!3m4!1s0x80c2c75ddc27da13:0xe22fdf6f254608f4!8m2!3d34.0522342!4d-118.2436849"
+    },
+    {
+        "img": "../assets/images/aus.jpg",
+        "alt": "Sydney Opera House", 
+        "name": "Sydney, Australia",
+        "button": "Know More...",
+        "url": "https://www.sydney.com/",
+        "href": "https://www.google.com/maps/place/Sydney+Opera+House/@-33.8605076,151.2150168,16.5z/data=!3m1!5s0x6b12ae67d234a27f:0xd6d4e9380ca1e32f!4m5!3m4!1s0x6b12ae665e892fdd:0x3133f8d75a1ac251!8m2!3d-33.8567844!4d151.2152967"
+    },
+    {
+        "img": "../assets/images/singapore.jpg",
+        "alt": "Marina Bay", 
+        "name": "Marina Bay, Singapore",
+        "button": "Know More...",
+        "url": "https://www.visitsingapore.com/en_in/",
+        "href": "https://www.google.com/maps/place/Singapore/@1.3264087,103.8743981,13.75z/data=!4m5!3m4!1s0x31da11238a8b9375:0x887869cf52abf5c4!8m2!3d1.352083!4d103.819836"
+    }
+]
