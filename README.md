@@ -46,7 +46,7 @@
 - WEBSITE HOSTED USING NETLIFY
 
 - NETLIFY : https://www.netlify.com/
-- WEBSITE LINK : 
+- WEBSITE LINK : https://explorix-tourism.netlify.app/
 
 - CHECK OUT MY PORTFOLIO WEBSITE : https://swastik-portfolio.netlify.app/
 
