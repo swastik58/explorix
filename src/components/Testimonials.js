@@ -97,6 +97,10 @@ const TopLine = styled.div`
     margin-bottom: 0.75rem;
     text-align: center;
     letter-spacing: 2px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+    }
 `
 const Description = styled.div`
     text-align: center;
@@ -105,6 +109,10 @@ const Description = styled.div`
     margin-bottom: 4rem;
     font-size: 30px;
     font-family: 'Merienda', cursive;
+
+    @media screen and (max-width: 768px) {
+        font-size: 20px;
+    }
 `
 const Description1 = styled.div`
     text-align: start;

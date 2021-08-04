@@ -21,8 +21,9 @@ const Email = () => {
                         <Button as="button" type="submit" primary="true" round="true" 
                         css={`height: 58px; margin-top: 40px; width: 95%; font-size: 25px;
                                 @media screen and (max-width:768px){
-                                    width: 100%;
+                                    width: 60%;
                                     min-width: 350px;
+                                    font-size: 20px;
                                 }
                                 @media screen and (max-width:400px){
                                     width: 100%;
@@ -90,6 +91,24 @@ const EmailContent = styled.div`
 
     form{
         z-index: 10;
+    }
+
+    @media screen and (max-width: 768px) {
+        h1{
+            text-align: center;
+            margin-bottom: 2rem;
+            padding: 0.1rem;
+            font-family: 'Handlee', cursive;
+            font-size: 40px;
+        }
+
+        p{
+            text-align: center;
+            padding: 0.1rem;
+            margin-bottom: 3rem;
+            font-size: 20px;
+            font-family: 'Merienda', cursive;
+        }
     }
 `
 const FormWrap = styled.div`

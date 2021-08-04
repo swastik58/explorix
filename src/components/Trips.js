@@ -51,6 +51,9 @@ const Trips = ({ heading }) => {
                                     background: #212196;
                                     transform: scale(1.03);
                                 }
+                                @media (max-width: 768px) {
+                                    position: absolute; top: 200px; font-size: 12px; font-family: 'Architects Daughter', cursive; transition: 0.3s ease-in-out;
+                                }
                             `}
                         >
                             {item.node.button}
@@ -75,7 +78,7 @@ export default Trips;
 
 const ProductsContainer = styled.div`
     min-height: 100vh;
-    padding: 3rem calc((100vw - 1700px) / 2);
+    padding: 3rem calc((100vw - 1600px) / 2);
     background: #0c0c0c;
     color: #fff;
 
@@ -93,6 +96,10 @@ const ProductsHeading = styled.div`
     font-family: 'Handlee', cursive;
     font-size: 70px;
     letter-spacing: 1.5px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+    }
 `
 
 const ProductWrapper = styled.div`
@@ -162,12 +169,22 @@ const ProductTitle = styled.div`
         text-decoration: none;
         color: #fff;
         font-family: 'Merienda', cursive;
-        font-weight: 400;
+        font-weight: 200;
         font-size: 18px;
     }
 
     &:hover {
         transform: scale(1.05);
+    }
+
+    @media screen and (max-width: 768px) {
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-family: 'Merienda', cursive;
+            font-weight: 200;
+            font-size: 12px;
+        }
     }
 `
 

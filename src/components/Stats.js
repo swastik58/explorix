@@ -25,7 +25,7 @@ import { FaMoneyCheck } from 'react-icons/fa'
     {
         icon: (<FaMoneyCheck/>),
         title: "Best Deals",
-        desc: "Get the best deals and prices of hotels and flights with us",
+        desc: "Get the best deals and prices on hotels and flights with us",
     },
 ]
 
@@ -66,6 +66,10 @@ const Heading = styled.div`
     font-size: 70px;
     margin-bottom: 3rem;
     padding: 0.2rem;
+
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+    }
 `
 const Wrapper = styled.div`
     display: grid;
@@ -83,7 +87,7 @@ const Wrapper = styled.div`
 const StatsBox = styled.div`
     height: 100%;
     width: 100%;
-    padding: 1rem;
+    padding: 1.5rem;
     padding-top: 10px;
     display: flex;
     flex-direction: column;
@@ -91,13 +95,25 @@ const StatsBox = styled.div`
 const Icon = styled.div`
     font-size: 3rem;
     margin-bottom: 1rem;
+
+    @media (max-width: 768px) {
+        font-size: 2.3rem;
+    }    
 `
 const Title = styled.p`
     margin-bottom: 0.5rem;
     font-size: 30px;
     font-family: 'Merienda', cursive;
+
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
 `
 const Description = styled.div`
     font-size: 1.5rem;
     font-family: 'Bad Script', cursive;
+
+    @media (max-width: 768px) {
+        font-size: 1.0rem;
+    }
 `
