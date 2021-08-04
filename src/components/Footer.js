@@ -14,7 +14,7 @@ const Footer = () => {
                     <FooterLinkTitle>Contact Us</FooterLinkTitle>
                     <FooterLink1><a href="mailto:swastiksupakar19@gmail.com">Write to us</a></FooterLink1>
                     <FooterLink1><a href="tel:7602508521">Call us</a></FooterLink1>
-                    <FooterLink to="#trips">Destinations</FooterLink>
+                    <FooterLink to="/develop">Destinations</FooterLink>
                     <FooterLink to="/develop">Sponsorships / Support Us</FooterLink>
                 </FooterLinkItems>
                 <FooterLinkItems>
